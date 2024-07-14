@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+
+    background-image: url("images.jpg");
+    background-size: cover;
+    /* Cover the entire background */
+    background-position: top;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    /* Ensure the image is not repeated */
+    height: 100vh;
+    /* Ensures the background covers the entire viewport height */
+    margin: 0;
+    /* Removes default body margin */
+    display: flex;
+    opacity: 0.8;
+    position: relative;
+}
+
+.about {
+
+
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Semi-transparent white background for text */
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+
+.main {
+    margin: 200px auto 20px;
+    /* padding: 50px 60px 100px; */
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 796.5px;
+    /* position: relative; */
+}
+
+/* .summary{
+    margin: 0;
+    align-items: flex-start;
+    
+    
+} */
+
+#summary {
+    font-size: 20px;
+    width: 266px;
+    height: 50px;
+    position: sticky;
+    margin-right: 0%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 10px;
+    background: #bdbfc3;
+
+}
+
+#theme {
+    font-size: 20px;
+    width: 266px;
+    height: 50px;
+    margin-left: -10px;
+    position: sticky;
+    border: none;
+    outline: none;
+    background: #bdbfc3;
+
+}
+
+/* .qoutes{
+    margin-top: 0%;
+    align-items: flex-start;
+    
+} */
+
+#qoutes {
+    font-size: 20px;
+    width: 275.5px;
+    height: 50px;
+    margin-left: -10px;
+    position: sticky;
+    border: none;
+    outline: none;
+    border-top-right-radius: 10px;
+    background: #bdbfc3;
+}
+
+#sumText {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    justify-content: flex;
+    height: 50vh;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+#themeText{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    text-align: left;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+#qoutesText{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    margin: 100px 20px 20px 20px;
+
+}
+
